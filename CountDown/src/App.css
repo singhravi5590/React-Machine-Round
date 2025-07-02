@@ -1,0 +1,59 @@
+body {
+  background-color: cadetblue;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box > input {
+  height: 50px;
+  width: 50px;
+  border: none;
+  padding: 2px;
+  text-align: center;
+  line-height: 50px;
+  outline: none;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.timer-button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  background-color: purple;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.show-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
