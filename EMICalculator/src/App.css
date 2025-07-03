@@ -1,0 +1,43 @@
+
+body{
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loan-calc{
+  background-color: aliceblue;
+  padding: 30px;
+  width: 400px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputes > p{
+  color: rgb(17, 103, 170);
+  font-size: 18px;
+}
+
+h1{
+  color: rgb(9, 95, 72);
+  font-size: 30px;
+}
+
+input {
+  width: 320px;
+  height: 35px;
+  font-size: 20px;
+  padding: 6px;
+}
+
+.output{
+  margin-top: 10px;
+  color: rgb(17, 103, 170);
+  font-size: 20px;
+  font-weight: bold;
+}
