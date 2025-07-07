@@ -60,8 +60,14 @@ const App = () => {
   
 
   useEffect(() => {
-    if(food.length > 2){
-      fetchItems()
+    const id = setTimeout(() => {
+      if(food.length > 2){
+        fetchItems()
+      }
+    }, 1000)
+
+    return () => {
+      clearTimeout(id);
     }
   }, [food])
 
