@@ -1,0 +1,71 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .faq-container {
+    background-color: #e0f7fa;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid #b2ebf2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .button-container p {
+    margin: 0;
+    font-size: 18px;
+    color: #004d40;
+    text-align: left;
+    flex: 1;
+  }
+  
+  button {
+    background-color: #00796b;
+    border: none;
+    color: white;
+    font-size: 22px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button.rotate {
+    transform: rotate(45deg); /* '+' to 'x' or '-' style */
+  }
+  
+  .answer {
+    margin-top: 10px;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+  }
+  

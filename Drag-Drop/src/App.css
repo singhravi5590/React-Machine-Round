@@ -1,0 +1,44 @@
+.App{
+  text-align: center;
+}
+
+.board{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo{
+  /* width: 33%;  We can give this also*/
+  flex: 1;  
+  height: 400px;
+}
+
+.doing{
+  /* width: 33%;  We can give this also*/
+  flex: 1;
+  height: 400px;
+  margin: 0 10px;
+}
+
+.done{
+  /* width: 33%;  We can give this also*/
+  flex: 1;
+  height: 400px;
+}
+
+.todo-col{
+  background-color: beige;
+  padding: 10px 0;
+}
+
+.doing-col{
+  background-color: lightblue;
+  padding: 10px 0;
+}
+
+.done-col{
+  background-color: lightgreen;
+  padding: 10px 0;
+}
