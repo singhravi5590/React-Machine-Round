@@ -1,5 +1,13 @@
 .App{
   text-align: center;
+  padding: 0 10px;
+}
+
+input{
+  width: 250px;
+  height: 35px;
+  font-size: 35px;
+  padding: 5px;
 }
 
 .board{
@@ -42,3 +50,33 @@
   background-color: lightgreen;
   padding: 10px 0;
 }
+
+.task-items{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  border: 0.7px solid lightgray;
+  padding: 10px;
+  cursor: grab;
+  font-size: 20px;
+  margin-block: 8px;
+}
+
+.task-items:hover{
+  background-color: lightgray;
+}
+
+.btn{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+}
+
+.btn:hover{
+  background-color: purple;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
