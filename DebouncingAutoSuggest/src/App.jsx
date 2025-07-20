@@ -79,7 +79,7 @@ const App = () => {
       </div>
 
       {
-        food.length >= 2 ? <div className='shopping-list' onClick={handleShopping}>
+        food.length >= 2 && <div className='shopping-list' onClick={handleShopping}>
         {
          shoppingList.map((item, index) => {
            return (
@@ -89,7 +89,7 @@ const App = () => {
            )
          })
         }
-       </div> : null
+       </div> 
       }
 
       

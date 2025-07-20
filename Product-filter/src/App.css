@@ -1,0 +1,44 @@
+.App{
+  text-align: center;
+}
+
+.product{
+  display: flex;
+  background-color: aquamarine;
+  margin: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-button{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+button{
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom, red, rgb(232, 232, 218));
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)
+}
+
+.selected{
+  background: black;
+  color: white;
+}
+
+.category{
+  font-size: large;
+  font-style: italic;
+}
